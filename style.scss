@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-image: url(./assets/bus-station.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+#counter {
+    font-size: 36pt;
+    color: white;
+    font-weight: 700;
+}
+
+.counter-div {
+    padding: 3% 7%;
+    width: auto;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 2px solid #1e2219;
+    background-color: #687233;
+}
+
+button {
+    padding: 3%;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button-div {
+    &-increase {
+        margin-bottom: 10px;
+    }
+}
+
+#save-display {
+    color: white;
+}
+
+.btn1 {
+    background-color: green;
+    color: white;
+}
+
+.btn2 {
+    background-color: red;
+    color: white;
+}
